@@ -1,18 +1,18 @@
 # settings file
-size = [256, 256]
+size = [1024, 1024]
 
 [parents]
-spawn_chance = 0.3
-random_offset = [40, 90]
-distance = 32
+spawn_chance = 1.0
+random_offset = [-90, 90]
+distance = 128
 seed_parent = -1
 parent_value_range = [0, 255]
 
 [children]
-radius_multiplier = 0.05
-radius_random_range = [0.1, 2.8]
+radius_multiplier = 0.2
+radius_random_range = [0.1, 1.8]
 children_amount_multiplier = 0.2
 close_range_distance_percent = 0.15
-close_radius_multiplier = 0.8
+close_radius_multiplier = 1.0
 seed_children = -1
-children_value_range = [0, 255]
+children_value_range = [0, 0]
